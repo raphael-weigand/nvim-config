@@ -56,3 +56,6 @@ vim.cmd("set path+=**   ")
 vim.g.mapleader = " "     -- Setzt Space als Leader-Taste
 vim.g.maplocalleader = " " -- Setzt auch den lokalen Leader
 
+vim.opt.autoread = true
+vim.opt.shada = "!,'1000,<50,s10,h"
+
