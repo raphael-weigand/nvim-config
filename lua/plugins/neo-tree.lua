@@ -10,9 +10,7 @@ return {
 	lazy = false, -- neo-tree will lazily load itself
 	---@module "neo-tree"
 	---@type neotree.Config?
-	opts = {
-		-- fill any relevant options here
-	},
+	opts = { },
 	config = function()
 		require("neo-tree").setup({
 			close_if_last_window = true, -- Schließt Neo-tree, wenn es das letzte Fenster ist

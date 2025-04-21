@@ -4,8 +4,7 @@ return {
     local null_ls = require("null-ls")
     null_ls.setup({
       sources = {
-        -- LSPs
-        -- Defined in lsp-config.lua
+        -- LSPs: Defined in lsp-config.lua, install via :Mason
 
         -- Linters
         -- null_ls.builtins.diagnostics.eslint_d, -- Linter for JS
@@ -16,7 +15,7 @@ return {
         null_ls.builtins.formatting.stylua, -- Format lua files
         null_ls.builtins.formatting.prettier, -- Format JS files
         null_ls.builtins.formatting.black, -- Format Python files
-        null_ls.builtins.formatting.isort, -- Format Python imports
+        null_ls.builtins.formatting.isort, -- Organize Python imports
       },
     })
 

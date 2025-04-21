@@ -7,7 +7,6 @@ return {
 			local telescope = require("telescope")
 			telescope.setup({
 				defaults = {
-					-- Deine bevorzugten Standardeinstellungen hier
 					mappings = {
 						i = {
 							["<C-k>"] = "move_selection_previous",
