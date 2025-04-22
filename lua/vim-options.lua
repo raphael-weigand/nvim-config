@@ -1,4 +1,3 @@
-
 vim.cmd("set nocompatible")
 
 -- Dateiverwaltung
@@ -11,14 +10,10 @@ vim.cmd("set expandtab")
 vim.cmd("set shiftwidth=2")
 vim.cmd("filetype indent on")
 vim.cmd("filetype on")
+vim.opt.swapfile = false
 
 -- Rücktaste
 vim.cmd("set backspace=indent,eol,start")
-
--- Cursor Position wird gemerkt
--- if has("autocmd")
--- 	au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
--- endif
 
 -- Navigation & UI
 vim.cmd("set number")
